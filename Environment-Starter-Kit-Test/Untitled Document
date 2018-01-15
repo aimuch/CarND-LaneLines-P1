@@ -1,0 +1,15 @@
+git clone https://github.com/udacity/CarND-Term1-Starter-Kit-Test.git
+git clone https://github.com/udacity/CarND-Term1-Starter-Kit.git
+
+cd CarND-Term1-Starter-Kit-Test
+
+# Anaconda
+source activate carnd-term1 # If currently deactivated, i.e. start of a new terminal session
+jupyter notebook test.ipynb
+
+conda env create -f environment.yml
+conda env remove -n carnd-term1
+
+
+
+
